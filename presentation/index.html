@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tomi: Tables de Multiplication — l'application pour réviser ses tables</title>
+<meta name="description" content="Tomi aide votre enfant à apprendre ses tables de multiplication, à son rythme, en séances courtes. Sans publicité, sans compte, sans accès à Internet.">
+<meta name="color-scheme" content="light dark">
+<style>
+:root{--bg:#fff8ee;--card:#ffffff;--ink:#1b2236;--muted:#55607a;--brand:#136f63;--brand-ink:#ffffff;--accent:#f5821f;--line:#e6dccb;--soft:#e8f4f1;--warn:#fff0c9}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14161d;--card:#1d2029;--ink:#eceef5;--muted:#a9b0c4;--brand:#4fc3b0;--brand-ink:#0d1f1c;--accent:#ffa24d;--line:#2d3140;--soft:#1a2a28;--warn:#33291a}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:62rem;margin:0 auto;padding:0 16px}
+a{color:var(--brand)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+header.top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0}
+.brand{font-weight:800;font-size:1.25rem;letter-spacing:.2px;color:var(--ink);text-decoration:none}
+.lang{font-weight:600;text-decoration:none;border:2px solid var(--brand);border-radius:999px;padding:4px 14px;color:var(--brand)}
+.hero{display:grid;gap:24px;padding:18px 0 36px;align-items:center}
+.hero h1{font-size:clamp(1.9rem,5vw,2.9rem);line-height:1.12;margin:0 0 12px}
+.hero p.lead{font-size:1.15rem;margin:0 0 16px;color:var(--ink)}
+.badge{display:inline-block;background:var(--warn);border:1px solid var(--line);border-radius:12px;padding:8px 14px;font-size:.95rem}
+.hero figure{margin:0;justify-self:center}
+.hero img{width:min(260px,70vw);height:auto;border-radius:22px;border:1px solid var(--line);box-shadow:0 10px 30px rgba(0,0,0,.18)}
+@media (min-width:760px){.hero{grid-template-columns:1.3fr 1fr}}
+section{padding:26px 0;border-top:1px solid var(--line)}
+section h2{font-size:1.5rem;margin:0 0 12px}
+.cards{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin:14px 0 0;padding:0;list-style:none}
+.cards li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.cards b{display:block;margin-bottom:4px}
+ol.steps{padding-left:1.3rem;margin:0}
+ol.steps li{margin:0 0 10px}
+.note{background:var(--soft);border-radius:12px;padding:12px 16px;margin:14px 0 0}
+.gallery{display:grid;gap:22px 16px;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));margin:16px 0 0;padding:0}
+.gallery figure{margin:0}
+.gallery img{width:100%;height:auto;border-radius:16px;border:1px solid var(--line);display:block;background:var(--card)}
+.gallery figcaption{font-size:.92rem;color:var(--muted);margin-top:8px;text-align:center}
+.contact a.mail{display:inline-block;background:var(--brand);color:var(--brand-ink);text-decoration:none;font-weight:700;border-radius:12px;padding:12px 20px;margin-top:6px;word-break:break-all}
+footer{border-top:1px solid var(--line);padding:22px 0 44px;color:var(--muted);font-size:.93rem}
+footer p{margin:0 0 8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><a class="brand" href="./">Tomi</a><a class="lang" hreflang="en" lang="en" href="en/">English</a></header>
+<main>
+<div class="hero">
+<div>
+<h1>Tomi : apprendre ses tables de multiplication, à son rythme</h1>
+<p class="lead">Tomi aide votre enfant à apprendre ses tables de multiplication en séances courtes. Le moteur pédagogique repère ce qu'il sait déjà et lui fait revoir, au bon moment, ce qui est encore fragile.</p>
+<p class="badge">Application Android en phase de test, pas encore disponible pour tous sur Google Play.</p>
+</div>
+<figure><img src="images/fr-07-exercice-grille.jpg" width="540" height="1064" alt="Exercice de la table de 1 dans Tomi"></figure>
+</div>
+<section id="but"><h2>À quoi sert Tomi ?</h2><p>Tomi est une application Android pour réviser les tables de multiplication, de 1 à 10, avec un adulte qui garde la main. Les séances sont courtes. L'application retient ce que l'enfant réussit et ce qui reste fragile, et le lui repropose au bon moment. Le parent suit les progrès dans un espace qui lui est réservé.</p>
+<h3 style="margin:18px 0 0;font-size:1.1rem">Les modes d'exercice</h3>
+<ul class="cards"><li><b>Dans l'ordre</b>On complète la table du début à la fin.</li><li><b>À l'envers</b>On part de 10 et on descend.</li><li><b>Dans le désordre</b>Les multiplications arrivent mélangées.</li><li><b>Rafale</b>Une multiplication à la fois : on répond vite, avec 90 secondes.</li></ul></section>
+<section id="mode-d-emploi"><h2>Mode d'emploi</h2><ol class="steps"><li><b>Installez Tomi</b> et lisez l'information du premier écran « Avant de commencer ». Cochez la case pour accepter que les réponses de votre enfant soient enregistrées sur ce téléphone : sans cet accord, l'application ne peut pas garder sa progression.</li><li><b>Protégez l'espace parent</b> : choisissez une question dont vous seul connaissez la réponse. Elle sera posée chaque fois que quelqu'un touchera le bouton « Parent ».</li><li><b>Ajoutez vos enfants</b> : prénom, âge, avatar et couleur. Le prénom, l'âge exact et l'avatar restent sur le téléphone.</li><li><b>L'enfant joue</b> : il touche son avatar sur l'écran « Qui joue ? », choisit une table, puis le mode d'exercice. L'application lui annonce le mode avant de commencer.</li><li><b>Vous suivez les progrès</b> dans l'espace parent, table par table, pour chaque enfant.</li><li><b>Vous pouvez, si vous le souhaitez, exporter des données</b> pour aider à améliorer l'application : vous voyez un aperçu, vous cochez les enfants concernés, puis vous envoyez le fichier vous-même avec la messagerie de votre choix. C'est facultatif.</li><li><b>Vous pouvez tout effacer</b> à tout moment depuis l'espace parent.</li></ol></section>
+<section id="donnees"><h2>Vos données</h2><p>L'application n'a <b>aucun accès à Internet</b> : elle ne peut rien envoyer toute seule. Il n'y a ni compte, ni publicité. L'export est facultatif ; les données exportées sont pseudonymisées (un code remplace le prénom ; ni le prénom, ni l'âge exact, ni l'avatar ne sont envoyés).</p><p><a href="https://lelynx.github.io/tdm-confidentialite/">Lire la politique de confidentialité</a></p></section>
+<section id="captures"><h2>Captures d'écran</h2><p style="color:var(--muted);margin:0">Les prénoms « cal » et « lil » sont fictifs.</p>
+<div class="gallery"><figure><img src="images/fr-01-bienvenue.jpg" width="540" height="1064" loading="lazy" alt="Écran de bienvenue de Tomi, avec l'icône de l'application et le bouton Commencer"><figcaption>Bienvenue</figcaption></figure>
+<figure><img src="images/fr-02-avant-de-commencer.jpg" width="540" height="1064" loading="lazy" alt="Écran « Avant de commencer » : information aux parents et case d'accord"><figcaption>Information aux parents</figcaption></figure>
+<figure><img src="images/fr-03-proteger-espace-parent.jpg" width="540" height="1064" loading="lazy" alt="Écran « Protéger l'espace parent » : choix d'une question et d'une réponse"><figcaption>Protéger l'espace parent</figcaption></figure>
+<figure><img src="images/fr-04-premier-enfant.jpg" width="540" height="1064" loading="lazy" alt="Écran « Premier enfant » : prénom, âge, avatar et couleur"><figcaption>Créer un profil d'enfant</figcaption></figure>
+<figure><img src="images/fr-05-qui-joue.jpg" width="540" height="1064" loading="lazy" alt="Écran « Qui joue ? » avec les avatars de deux enfants et le bouton Parent"><figcaption>« Qui joue ? »</figcaption></figure>
+<figure><img src="images/fr-06-choix-du-mode.jpg" width="540" height="1064" loading="lazy" alt="Écran d'annonce du mode « Dans l'ordre » pour la table de 1"><figcaption>Le mode d'exercice</figcaption></figure>
+<figure><img src="images/fr-07-exercice-grille.jpg" width="540" height="1064" loading="lazy" alt="Exercice de la table de 1 présenté en grille, avec le pavé numérique"><figcaption>Exercice en grille</figcaption></figure>
+<figure><img src="images/fr-08-exercice-clavier.jpg" width="540" height="1064" loading="lazy" alt="Exercice de la table de 1 : une multiplication à la fois, avec le pavé numérique"><figcaption>Une multiplication à la fois</figcaption></figure>
+<figure><img src="images/fr-09-resultat.jpg" width="540" height="1064" loading="lazy" alt="Écran de résultat : 10 sur 10, exercice parfait"><figcaption>Le résultat</figcaption></figure>
+<figure><img src="images/fr-10-progression.jpg" width="540" height="1064" loading="lazy" alt="Écran « Progression » : les tables de 1 à 10 de chaque enfant"><figcaption>Suivre la progression</figcaption></figure>
+<figure><img src="images/fr-11-donnees-a-envoyer.jpg" width="540" height="1064" loading="lazy" alt="Écran « Données à envoyer » : aperçu de ce que contient l'export"><figcaption>Aperçu avant l'export</figcaption></figure>
+<figure><img src="images/fr-12-espace-parent.jpg" width="540" height="1064" loading="lazy" alt="Écran « Espace parent » : enfants, progression, export, question, effacement"><figcaption>L'espace parent</figcaption></figure></div></section>
+<section id="contact" class="contact"><h2>Contact</h2><p>Une question, une remarque, une demande d'accès, de correction ou de suppression de données ? Écrivez à :</p><a class="mail" href="mailto:support.phpons@gmail.com">support.phpons@gmail.com</a><p class="note">Pour une demande portant sur des données déjà envoyées, indiquez le code de l'enfant (affiché dans l'espace parent).</p></section>
+</main>
+<footer>
+<p><b>Éditeur :</b> Philippe Pons, développeur indépendant (particulier).</p><p><b>Hébergement de cette page :</b> GitHub Pages, GitHub, Inc., 88 Colin P. Kelly Jr Street, San Francisco, CA 94107, États-Unis.</p><p>Cette page n'utilise ni cookie, ni statistique de fréquentation, ni police ou script externe.</p><p>Google Play est une marque de Google LLC. Tomi n'est ni affiliée à Google ni approuvée par Google.</p><p>Page mise à jour le 8 novembre 2026.</p>
+<p><a href="https://lelynx.github.io/tdm-confidentialite/">Politique de confidentialité</a></p>
+</footer>
+</div>
+</body>
+</html>

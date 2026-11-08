@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tomi: Times Tables Quiz — practise the multiplication tables</title>
+<meta name="description" content="Tomi helps your child learn the multiplication tables at their own pace, in short sessions. No ads, no account, no Internet access.">
+<meta name="color-scheme" content="light dark">
+<style>
+:root{--bg:#fff8ee;--card:#ffffff;--ink:#1b2236;--muted:#55607a;--brand:#136f63;--brand-ink:#ffffff;--accent:#f5821f;--line:#e6dccb;--soft:#e8f4f1;--warn:#fff0c9}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14161d;--card:#1d2029;--ink:#eceef5;--muted:#a9b0c4;--brand:#4fc3b0;--brand-ink:#0d1f1c;--accent:#ffa24d;--line:#2d3140;--soft:#1a2a28;--warn:#33291a}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:62rem;margin:0 auto;padding:0 16px}
+a{color:var(--brand)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+header.top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0}
+.brand{font-weight:800;font-size:1.25rem;letter-spacing:.2px;color:var(--ink);text-decoration:none}
+.lang{font-weight:600;text-decoration:none;border:2px solid var(--brand);border-radius:999px;padding:4px 14px;color:var(--brand)}
+.hero{display:grid;gap:24px;padding:18px 0 36px;align-items:center}
+.hero h1{font-size:clamp(1.9rem,5vw,2.9rem);line-height:1.12;margin:0 0 12px}
+.hero p.lead{font-size:1.15rem;margin:0 0 16px;color:var(--ink)}
+.badge{display:inline-block;background:var(--warn);border:1px solid var(--line);border-radius:12px;padding:8px 14px;font-size:.95rem}
+.hero figure{margin:0;justify-self:center}
+.hero img{width:min(260px,70vw);height:auto;border-radius:22px;border:1px solid var(--line);box-shadow:0 10px 30px rgba(0,0,0,.18)}
+@media (min-width:760px){.hero{grid-template-columns:1.3fr 1fr}}
+section{padding:26px 0;border-top:1px solid var(--line)}
+section h2{font-size:1.5rem;margin:0 0 12px}
+.cards{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin:14px 0 0;padding:0;list-style:none}
+.cards li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.cards b{display:block;margin-bottom:4px}
+ol.steps{padding-left:1.3rem;margin:0}
+ol.steps li{margin:0 0 10px}
+.note{background:var(--soft);border-radius:12px;padding:12px 16px;margin:14px 0 0}
+.gallery{display:grid;gap:22px 16px;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));margin:16px 0 0;padding:0}
+.gallery figure{margin:0}
+.gallery img{width:100%;height:auto;border-radius:16px;border:1px solid var(--line);display:block;background:var(--card)}
+.gallery figcaption{font-size:.92rem;color:var(--muted);margin-top:8px;text-align:center}
+.contact a.mail{display:inline-block;background:var(--brand);color:var(--brand-ink);text-decoration:none;font-weight:700;border-radius:12px;padding:12px 20px;margin-top:6px;word-break:break-all}
+footer{border-top:1px solid var(--line);padding:22px 0 44px;color:var(--muted);font-size:.93rem}
+footer p{margin:0 0 8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><a class="brand" href="./">Tomi</a><a class="lang" hreflang="fr" lang="fr" href="../">Français</a></header>
+<main>
+<div class="hero">
+<div>
+<h1>Tomi: learn the multiplication tables at your own pace</h1>
+<p class="lead">Tomi helps your child learn the multiplication tables in short sessions. The learning engine spots what they already know and brings back, at the right time, what is still shaky.</p>
+<p class="badge">Android app in its testing phase, not yet available to everyone on Google Play.</p>
+</div>
+<figure><img src="../images/en-07-grid-exercise.jpg" width="540" height="1064" alt="Table-of-1 exercise in Tomi"></figure>
+</div>
+<section id="but"><h2>What is Tomi for?</h2><p>Tomi is an Android app for practising the multiplication tables, from 1 to 10, with an adult in charge. Sessions are short. The app remembers what the child gets right and what is still shaky, and brings it back at the right time. The parent follows progress in a space reserved for them.</p>
+<h3 style="margin:18px 0 0;font-size:1.1rem">Exercise modes</h3>
+<ul class="cards"><li><b>In order</b>Complete the table from start to finish.</li><li><b>Backwards</b>We start at 10 and count down.</li><li><b>Mixed up</b>The multiplications come in a mixed-up order.</li><li><b>Burst</b>One multiplication at a time: answer fast, you have 90 seconds.</li></ul></section>
+<section id="mode-d-emploi"><h2>How to use it</h2><ol class="steps"><li><b>Install Tomi</b> and read the information on the first “Before you start” screen. Tick the box to agree that your child's answers are stored on this phone: without this agreement, the app cannot save their progress.</li><li><b>Protect the parent space</b>: choose a question only you know the answer to. It will be asked whenever someone taps the Parent button.</li><li><b>Add your children</b>: first name, age, avatar and colour. The first name, exact age and avatar stay on the phone.</li><li><b>The child plays</b>: they tap their avatar on the “Who is playing?” screen, pick a table, then an exercise mode. The app announces the mode before starting.</li><li><b>You follow progress</b> in the parent space, table by table, for each child.</li><li><b>If you wish, you can export data</b> to help improve the app: you see a preview, tick the children concerned, then send the file yourself with the messaging app of your choice. It is optional.</li><li><b>You can erase everything</b> at any time from the parent space.</li></ol></section>
+<section id="donnees"><h2>Your data</h2><p>The app has <b>no Internet access</b>: it cannot send anything by itself. There is no account and no advertising. Export is optional; exported data is pseudonymised (a code replaces the first name; neither the first name, the exact age nor the avatar is sent).</p><p><a href="https://lelynx.github.io/tdm-confidentialite/#english">Read the privacy policy</a></p></section>
+<section id="captures"><h2>Screenshots</h2><p style="color:var(--muted);margin:0">The first names “cal” and “lil” are fictitious.</p>
+<div class="gallery"><figure><img src="../images/en-01-welcome.jpg" width="540" height="1064" loading="lazy" alt="Tomi welcome screen, with the app icon and the Start button"><figcaption>Welcome</figcaption></figure>
+<figure><img src="../images/en-02-before-you-start.jpg" width="540" height="1064" loading="lazy" alt="“Before you start” screen: information for parents and the agreement checkbox"><figcaption>Information for parents</figcaption></figure>
+<figure><img src="../images/en-03-protect-parent-space.jpg" width="540" height="1064" loading="lazy" alt="“Protect the parent space” screen: choosing a question and an answer"><figcaption>Protecting the parent space</figcaption></figure>
+<figure><img src="../images/en-04-first-child.jpg" width="540" height="1064" loading="lazy" alt="“First child” screen: first name, age, avatar and colour"><figcaption>Creating a child profile</figcaption></figure>
+<figure><img src="../images/en-05-who-is-playing.jpg" width="540" height="1064" loading="lazy" alt="“Who is playing?” screen with two children's avatars and the Parent button"><figcaption>“Who is playing?”</figcaption></figure>
+<figure><img src="../images/en-06-choose-mode.jpg" width="540" height="1064" loading="lazy" alt="Announcement screen for the “In order” mode, table of 1"><figcaption>The exercise mode</figcaption></figure>
+<figure><img src="../images/en-07-grid-exercise.jpg" width="540" height="1064" loading="lazy" alt="Table-of-1 exercise shown as a grid, with the number pad"><figcaption>Grid exercise</figcaption></figure>
+<figure><img src="../images/en-08-keyboard-exercise.jpg" width="540" height="1064" loading="lazy" alt="Table-of-1 exercise: one multiplication at a time, with the number pad"><figcaption>One multiplication at a time</figcaption></figure>
+<figure><img src="../images/en-09-result.jpg" width="540" height="1064" loading="lazy" alt="Result screen: 10 out of 10, perfect exercise"><figcaption>The result</figcaption></figure>
+<figure><img src="../images/en-10-progress.jpg" width="540" height="1064" loading="lazy" alt="“Progress” screen: tables 1 to 10 for each child"><figcaption>Following progress</figcaption></figure>
+<figure><img src="../images/en-11-data-to-send.jpg" width="540" height="1064" loading="lazy" alt="“Data to send” screen: preview of what the export contains"><figcaption>Preview before export</figcaption></figure>
+<figure><img src="../images/en-12-parent-space.jpg" width="540" height="1064" loading="lazy" alt="“Parent space” screen: children, progress, export, question, erase data"><figcaption>The parent space</figcaption></figure></div></section>
+<section id="contact" class="contact"><h2>Contact</h2><p>A question, a comment, or a request for access, correction or deletion of data? Write to:</p><a class="mail" href="mailto:support.phpons@gmail.com">support.phpons@gmail.com</a><p class="note">For a request about data that has already been sent, please give the child's code (shown in the parent space).</p></section>
+</main>
+<footer>
+<p><b>Publisher:</b> Philippe Pons, independent developer (private individual).</p><p><b>Hosting of this page:</b> GitHub Pages, GitHub, Inc., 88 Colin P. Kelly Jr Street, San Francisco, CA 94107, USA.</p><p>This page uses no cookies, no analytics, and no external fonts or scripts.</p><p>Google Play is a trademark of Google LLC. Tomi is neither affiliated with nor endorsed by Google.</p><p>Page updated on 8 November 2026.</p>
+<p><a href="https://lelynx.github.io/tdm-confidentialite/#english">Privacy policy</a></p>
+</footer>
+</div>
+</body>
+</html>
